@@ -12,10 +12,16 @@ int main(void)
     complex c1;
 
     c1.re = 1;
+    c1.im = 2;
+    display_complex_number(c1);
+    c1.re = 1;
     c1.im = -2;
     display_complex_number(c1);
     c1.re = 1;
     c1.im = 1;
+    display_complex_number(c1);
+    c1.re = 1;
+    c1.im = -1;
     display_complex_number(c1);
     c1.re = 1;
     c1.im = 0;
